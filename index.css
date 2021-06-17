@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color:#403c4e;
+     height:90vh;
+    color: #fff;
+}
+
+.navbo{
+ /* background-color: aquamarine; */
+ border: 1px solid black;
+ display: flex;
+ justify-content:space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  border: none;
+
+}
+
+ .navbo ul li{
+    display:inline-block;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-bottom: 0rem;
+   
+}
+
+
+.dash{
+  width: 60px;
+  height: 5px;
+  background-color: rgb(255, 230, 0);
+}
+
+.sumit, h1{
+  font-size: 7.5rem;
+  margin-top: 0;
+}
+
+.Name{
+  margin-top:0;
+  padding:0rem;
+  background-image: url('image/sumit.jpeg');
+  background-position:100% 30%;
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+@media(max-width:1200px){
+  .header{
+    height: auto;
+  }
+  .navbo ul li{
+   margin-left: auto
+  }
+  .sumit{
+    font-size: 4rem;
+  }
+
+  .Name{
+    padding-left: 0rem !important;
+  }
+}
+
+/* SEC--SECTION ******************************************************* */
+
+.sec-section{
+  background-color:#2b2a31;
+  color: #fff;
+  height:100vh;
+  position: relative;
+}
+
+.On-top{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: -150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.boxer{
+ border: 1px solid black;
+ width: 360px;
+ height: 250px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+background-color: black;
+opacity: 0.5;
+padding-top: 8rem;
+
+}
+.Email{
+  color:#ffe600;
+}
+.Experience{
+  border: 1px solid black;
+  height: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1rem;
+
+}
+.Year{
+  color:#ffe600;
+}
+.Year-p  {
+  margin-right: 3rem;
+  margin-left: 1rem;
+  align-self:flex-end;
+}
+.total{
+  margin-left: 2rem;
+  color:#ffe600;
+}
+
+.total-p{
+  align-self: flex-end;
+  margin-left: 1rem;
+}
+
+@media(max-width:1200px){
+  .sec-section{
+    height: auto;
+  }
+ .On-top{
+   display: none;
+ }
+}
+/* THIRD SECTION********************************************* */
+
+
+.Third-section{
+   background-color:#403c4e;
+   height: 100vh;
+   color: #fff;
+
+}
+
+.company{
+  border: 1px solid black;
+  text-align: center;
+  position:relative;
+  top:40%;
+}
+
+@media(max-width:1200px){
+     .Third-section{
+       height: auto;
+     }
+
+
+}
