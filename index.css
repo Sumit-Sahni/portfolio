@@ -51,7 +51,7 @@ h2{
 .Name{
   margin-top:0;
   padding:0rem;
-  background-image: url('image/sumit.jpeg');
+  background-image: url('https://unsplash.com/photos/OhKElOkQ3RE/download?force=true&w=2400');
   background-position:100% 30%;
   background-repeat:no-repeat;
   background-size:contain;
@@ -236,10 +236,10 @@ text-align: center;
   height: 270px;
   /* border: 1px solid black; */
   margin-right: 10px;
-  background-image: url('image/sumit.jpeg');
+  background-image: url('https://unsplash.com/photos/OhKElOkQ3RE/download?force=true&w=2400');
   background-position:cover;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 112% 153%;
 
 }
 .blog-box2{
